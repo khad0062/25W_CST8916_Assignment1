@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sports News</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+        <h1>Sports News Management</h1>
+        <form id="newsForm">
+            <input type="text" id="title" placeholder="News Title" required>
+            <textarea id="content" placeholder="News Content" required></textarea>
+            <button type="submit">Add News</button>
+        </form>
+        <div id="newsList"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
-</html>
